@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.content-container {
+  border: 3px solid black;
+  padding: 20px;
+  background-color: blue;
+  color: white;
+  z-index: 1;
+}
+
+.full-screen {
+  height: 50vh;
+  width: 50vw;
+  overflow: scroll;
+}
+
+.content-image {
+  width: 60vw;
+  height: auto;
+  z-index: 10;
+}
+
+#super-container {
+  border: 3px solid red;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
